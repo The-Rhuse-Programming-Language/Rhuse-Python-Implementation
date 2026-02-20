@@ -2,7 +2,8 @@
 
 # Version History
 
-* v0.1 (Current) - Basic I/O, variables, and math.
+* v0.1 - Basic I/O, variables, and math. - 1.3KB
+* v0.2 - Fixed main.py - 1.4KB
 
 
 ## Roadmap
