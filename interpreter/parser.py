@@ -1,5 +1,11 @@
 import tokenizer, math, time, os, stdlib
-variables = {}
+variables = {
+	"__euler__": 2.71828,
+	"__pi__": 3.14159,
+	"__file__": __file__,
+	"null": "None",
+	"__version__": 0.5
+}
 def parse(line):
 	command = line[0]
 	match command:
