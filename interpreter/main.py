@@ -1,5 +1,9 @@
 from tokenizer import *
 from parser import *
-with open(input("<usage> Enter .rh script (must be in current directory)\n"), 'r')as script:
-	for line in script.read():
-		parse(tokenize(line))
+import sys
+if sys.argv[1]:
+	with open(sys.argv[1], 'r') as script:
+		for line in script.read():
+			parse(tokenize(line))
+else:
+	print("<usage>: python main.py script.rh")
