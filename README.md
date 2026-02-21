@@ -6,7 +6,7 @@
 * v0.2 - Fixed main.py - 1.4KB
 * v0.3 - Added a standard library - 2.7KB
 * v0.4 - Revised main.py to take terminal arguments or display usage - 2.7KB
-* v0.5 - Added new built-in functions - 2.9KB
+* v0.5 - Added new built-in variables - 2.9KB
 
 
 ## Roadmap
